@@ -9,14 +9,14 @@
   "rules": {
     //
     "semi": "off",
-    "indent": "off",
+    //"indent": "off",
     //Отключаем ошибку отсутствия определения super в классе наследнике
     // "constructor-super": "off",
     // Отключаем ошибку - отсутствует описание к функции или классу
     "require-jsdoc": "off",
     // Переключаем ошибку на предупреждение о наличии console.log в коде
-    "no-console": "warn",
+    // "no-console": "warn",
     // Отключаем ошибку отсутствие пробелов между скобками
-    "object-curly-spacing": "off"
+    // "object-curly-spacing": "off"
   }
 }
