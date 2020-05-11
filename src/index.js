@@ -1,11 +1,13 @@
+import { Excel } from './components/excel/Excel'
+import { Header } from './components/header/Header'
+import { Toolbar } from './components/toolbar/Toolbar'
+import { Formula } from './components/formula/Formula'
+import { Table } from './components/table/Table'
+
 import './scss/index.scss'
 
-/**
- * Solves equations of the form a * x = b
- * @example <caption>Example usage of method1.</caption>
- * // returns 2
- * globalNS.method1(5, 10);
- * @returns {Number} Returns the value of x for the equation.
- */
+const excel = new Excel('#app', {
+  components: [Header, Toolbar, Formula, Table],
+})
 
-console.log('Working!')
+excel.render()
